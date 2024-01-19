@@ -1,0 +1,117 @@
+* {
+  font-size: 10px;
+}
+
+@font-face {
+  font-family: 'Allejo';
+  src: url('Allejo.woff2') format('woff2'),
+      url('Allejo.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Idealist Sans';
+  src: url('IdealistSans.woff2') format('woff2'),
+      url('IdealistSans.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: 'Allejo', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  letter-spacing: 3px;
+  line-height: 1.6;
+  background-color:white;
+}
+
+h1 {
+  font-family: 'Idealist Sans', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  font-size: 5em;
+  letter-spacing: 6px;
+  border-top: 4px solid rgb(17, 0, 255);
+  border-bottom: 4px solid rgb(17, 0, 255);
+}
+
+h2 {
+  font-size: 3em;
+  letter-spacing: 3px;
+}
+
+p {
+  font-family: 'Allejo';
+  font-size: 3em;
+  letter-spacing: 2px;
+}
+
+li {
+  list-style-type: none;
+  font-size: 3em;
+}
+
+a {
+  font-size: 1em;
+  text-decoration: none;
+}
+
+a:focus, a:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+a:active {
+  color: rgb(230, 230, 0);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 50% 25% 25%;
+  column-gap: 50px;
+}
+
+#courses {
+  font-size: 1em;
+}
+
+navbar {
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* .course {
+  font-size: 1em;
+} */
+
+#more {
+  display: none;
+}
+
+button {
+  font-size: 16px;
+}
+
+#myBtn {
+  color: #551A8B;
+  font-size: 3em;
+}
+
+#myBtn:focus, #myBtn:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+#myBtn:active {
+  color: rgb(230, 230, 0);
+}
+
+footer {
+  display: flex;
+  flex-direction:row;
+  justify-content:flex-end;
+  font-size: 2em;
+}
